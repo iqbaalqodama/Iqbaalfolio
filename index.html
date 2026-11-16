@@ -1,0 +1,161 @@
+doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>porto</title>
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Bagian Navigasi (Menu Atas) -->
+    <header>
+      <nav>
+        <div class="logo">Dasbor<span>Design.</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">About me</a></li>
+          <li><a href="#about">Karya</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Bagian Hero (Perkenalan Utama) -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="greeting">halooo semuaaaa perkenalkaan</p>
+        <h1>Iqbaal <span class="highlight">Qodama</span></h1>
+        <h2>Designer & Calon Presiden</h2>
+        <p class="description">
+          Welcome eperybodi di portofolio saya. Saya sedang belajar membuat apa saja
+          yang menarik, modern, dan interaktif keren kaaan.
+        </p>
+        <a href="#projects" class="btn">Lihat Karya Saya</a>
+      </div>
+      <div class="hero-image">
+        <!-- Ganti src dengan link foto/gambar siswa nantinya -->
+        <img src="https://uploads.onecompiler.io/44z5nebre/1787538149663/11714.jpg" alt="Foto Profil Saya" />
+      </div>
+    </section>
+    
+    <!-- Menghubungkan file Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
+ <!-- ========================================== -->
+    <!-- BAGIAN TENTANG & KEAHLIAN (ABOUT SECTION)  -->
+    <!-- ========================================== -->
+    <section id="about" class="about">
+      <h2 class="section-title">Tentang <span>Saya</span></h2>
+      
+      <div class="about-content">
+        <!-- Kolom Kiri: Teks Tentang -->
+        <div class="about-text">
+          <h3>Siapa Saya?</h3>
+          <p>
+            Saya adalah seorang pelajar yang memiliki ketertarikan besar di dunia design, khususnya dalam pengembangan skill saya (designer). Saya ***** merancang tampilan sesuatu dan terus belajar hal-hal baru tentang design dan lainya.
+          </p>
+          <p>
+            Tujuan saya adalah menjadi seorang pelajar designer profesional yang bisa menciptakan berbagi visual digital yang keren bagi banyak orang.
+          </p>
+        </div>
+
+
+        <!-- Kolom Kanan: Daftar Keahlian -->
+        <div class="about-skills">
+          <h3>Keahlian & Tools</h3>
+          <div class="skills-list">
+            <span class="skill-item">Ibispaint</span>
+            <span class="skill-item">ilustrator</span>
+            <span class="skill-item">canva</span>
+            <span class="skill-item">capcut</span>
+            <span class="skill-item">designer</span>
+            <span class="skill-item">jedagjedug</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- BAGIAN KARYA SAYA (PROJECTS SECTION)       -->
+    <!-- ========================================== -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Karya <span>Saya</span></h2>
+      
+      <!-- Grid untuk membungkus kartu-kartu proyek -->
+      <div class="project-grid">
+        
+        <!-- Kartu Proyek 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x250" alt="Proyek Absensi">
+          </div>
+          <div class="project-info">
+            <h3>Sistem Absensi</h3>
+            <p>Aplikasi web untuk mencatat kehadiran secara digital dengan fitur rekap otomatis.</p>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+        </div>
+
+
+        <!-- Kartu Proyek 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x250" alt="Proyek Koper Grosir">
+          </div>
+          <div class="project-info">
+            <h3>Koper Grosir</h3>
+            <p>Katalog produk online untuk menampilkan daftar barang grosir beserta harganya.</p>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+        </div>
+
+
+        <!-- Kartu Proyek 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x250" alt="Proyek PassKeeper">
+          </div>
+          <div class="project-info">
+            <h3>PassKeeper</h3>
+            <p>Aplikasi sederhana untuk menyimpan dan mengelola kata sandi dengan aman.</p>
+            <a href="#" class="btn-small">Lihat Detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================== -->
+<!-- BAGIAN KONTAK (CONTACT SECTION) -->
+<!-- ========================================== -->
+<section id="contact" class="contact">
+ <h2 class="section-title">Hubungi <span>Saya</span></h2>
+ <div class="contact-container">
+ <!-- Info Kontak -->
+ <div class="contact-info">
+ <h3>Mari Berkolaborasi!</h3>
+ <p>Apakah Anda memiliki ide proyek atau pertanyaan? Jangan ragu untuk mengirim 
+pesan kepada saya melalui form di samping.</p>
+ <ul>
+ <li> Email: emailmu@contoh.com</li>
+ <li> Lokasi: Yogyakarta, Indonesia</li>
+ <li> WhatsApp: 0812-XXXX-XXXX</li>
+ </ul>
+ </div>
+ <!-- Formulir Kontak -->
+ <form class="contact-form" id="form-kontak">
+ <input type="text" placeholder="Nama Lengkap Anda" required>
+ <input type="email" placeholder="Email Anda" required>
+ <textarea placeholder="Tulis pesan Anda di sini..." rows="5" required></
+textarea>
+ <button type="submit" class="btn">Kirim Pesan</button>
+ </form>
+ </div>
+</section>
+<!-- ========================================== -->
+<!-- FOOTER -->
+<!-- ========================================== -->
+<footer>
+ <p>&copy; 2026 Nama Kalian. Dibuat dengan dan .</p>
+</footer>
+
